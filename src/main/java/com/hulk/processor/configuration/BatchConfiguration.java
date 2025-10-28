@@ -1,5 +1,6 @@
 package com.hulk.processor.configuration;
 
+import com.hulk.processor.model.MlMetrics;
 import com.hulk.processor.repository.Repository;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -13,13 +14,13 @@ import org.springframework.batch.item.support.CompositeItemWriter;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.task.TaskExecutor;
-import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.transaction.PlatformTransactionManager;
 
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 @Configuration
 @EnableConfigurationProperties({TopicProperties.class})
@@ -37,7 +38,9 @@ public class BatchConfiguration {
     }
 
     @Bean
-    public CompositeItemWriter<Repository> compositeRepositoryWriter(List<ItemWriter<? super Repository>> itemWriters) {
+    public CompositeItemWriter<Repository> compositeRepositoryWriter(
+        List<ItemWriter<? super Repository>> itemWriters
+    ) {
         var itemWriter = new CompositeItemWriter<Repository>();
         itemWriter.setDelegates(itemWriters);
 
@@ -53,14 +56,6 @@ public class BatchConfiguration {
             .consumerProperties(mlConsumerGroupProperties)
             .topic(topicProperties.topic())
             .build();
-    }
-
-    @Bean
-    public CompositeItemWriter<CompletableFuture<Repository>> compositeMlWriter(List<ItemWriter<? super CompletableFuture<Repository>>> itemWriters) {
-        var itemWriter = new CompositeItemWriter<CompletableFuture<Repository>>();
-        itemWriter.setDelegates(itemWriters);
-
-        return itemWriter;
     }
 
     @Bean
@@ -96,10 +91,10 @@ public class BatchConfiguration {
         JobRepository jobRepository,
         PlatformTransactionManager transactionManager,
         ItemReader<Repository> repositoryMlReader,
-        CompositeItemWriter<Repository> compositeMlWriter
+        ItemWriter<CompletableFuture<MlMetrics>> compositeMlWriter
     ) {
         return new StepBuilder("mlStep", jobRepository)
-            .<Repository, Repository>chunk(25, transactionManager)
+            .<Repository, CompletableFuture<MlMetrics>>chunk(25, transactionManager)
             .reader(repositoryMlReader)
             .writer(compositeMlWriter)
             .readerIsTransactionalQueue()
@@ -108,14 +103,12 @@ public class BatchConfiguration {
     }
 
     @Bean
-    public TaskExecutor repositorySchedulerExecutor() {
-        var executor = new ThreadPoolTaskExecutor();
-        executor.setCorePoolSize(5);
-        executor.setMaxPoolSize(10);
-        executor.setQueueCapacity(50);
-        executor.setAwaitTerminationSeconds(10);
+    public ExecutorService repositorySchedulerExecutor() {
+        var threadFactory = Thread.ofVirtual()
+            .name("repository-worker-%d", 0)
+            .factory();
 
-        return executor;
+        return Executors.newThreadPerTaskExecutor(threadFactory);
     }
 
 }

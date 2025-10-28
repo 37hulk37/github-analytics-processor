@@ -20,8 +20,8 @@ public class RepositoryScheduler {
     private final Job repositoryJob;
     private final JobLauncher jobLauncher;
 
-    @Async("repositoryProcessingExecutor")
-    @Scheduled(cron = "0 0 0 * * *")
+    @Async("repositorySchedulerExecutor")
+    @Scheduled(cron = "0 0/30 * * * *")
     public void startProcessing() {
         var parameters = new JobParametersBuilder()
                 .addString("id", UUID.randomUUID().toString())
