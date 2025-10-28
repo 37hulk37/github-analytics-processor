@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 @RequiredArgsConstructor
 public class MlRepositoryProcessor implements ItemProcessor<Repository, CompletableFuture<MlMetrics>>, AutoCloseable {
 
-    private final GithubModel model;
+    private final MlModel model;
 
     private final ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor();
 

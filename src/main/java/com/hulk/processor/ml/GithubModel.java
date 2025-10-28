@@ -2,26 +2,21 @@ package com.hulk.processor.ml;
 
 import com.hulk.processor.model.MlMetrics;
 import com.hulk.processor.repository.Repository;
-import lombok.Setter;
-import org.springframework.stereotype.Component;
 import org.tensorflow.SavedModelBundle;
 import org.tensorflow.Tensor;
 import org.tensorflow.Tensors;
 
-@Component
-public class GithubModel implements AutoCloseable {
-
-    @Setter
-    private String modelName = "model";
+public class GithubModel implements MlModel, AutoCloseable {
 
     private final SavedModelBundle modelBundle;
     private final RepositoryFeatureConvertor convertor;
 
-    public GithubModel(RepositoryFeatureConvertor convertor) {
+    public GithubModel(String modelName, RepositoryFeatureConvertor convertor) {
         this.modelBundle = SavedModelBundle.load(modelName, "serve");
         this.convertor = convertor;
     }
 
+    @Override
     public MlMetrics predict(Repository data) {
         var features = convertor.convert(data);
 

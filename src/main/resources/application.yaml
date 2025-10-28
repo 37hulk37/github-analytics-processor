@@ -5,6 +5,11 @@ spring:
     uris: //todo
     username: elastic
     password: elastic
+  cloud:
+    zookeeper:
+      connect-string: //todo
+      config:
+        im
   kafka:
     bootstrap-servers: //todo
     consumer:
