@@ -28,9 +28,9 @@ extra["springCloudVersion"] = "2025.0.0"
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-batch")
-	implementation("org.springframework.cloud:spring-cloud-starter-zookeeper-config")
 	implementation("org.springframework.kafka:spring-kafka")
 	implementation("org.springframework.boot:spring-boot-starter-data-elasticsearch")
+
     implementation("org.tensorflow:tensorflow:1.15.0")
 
 	compileOnly("org.projectlombok:lombok")
@@ -39,13 +39,9 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.batch:spring-batch-test")
 	testImplementation("org.springframework.kafka:spring-kafka-test")
-	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-}
 
-dependencyManagement {
-	imports {
-		mavenBom("org.springframework.cloud:spring-cloud-dependencies:${property("springCloudVersion")}")
-	}
+    testImplementation("org.mockito:mockito-core:5.20.0")
+	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
 tasks.withType<Test> {
