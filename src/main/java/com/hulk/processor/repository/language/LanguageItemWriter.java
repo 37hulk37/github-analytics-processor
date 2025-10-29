@@ -1,7 +1,7 @@
 package com.hulk.processor.repository.language;
 
 import com.hulk.processor.model.LanguageDocument;
-import com.hulk.processor.repository.AbstractRepositoryItemWriter;
+import com.hulk.processor.repository.AbstractItemWriter;
 import com.hulk.processor.repository.Repository;
 import lombok.AllArgsConstructor;
 import lombok.NonNull;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @AllArgsConstructor
-public class LanguageItemWriter extends AbstractRepositoryItemWriter {
+public class LanguageItemWriter extends AbstractItemWriter<Repository> {
 
     private final LanguageElasticRepository repository;
 

@@ -1,6 +1,6 @@
 package com.hulk.processor.configuration;
 
-import com.hulk.processor.model.MlMetrics;
+import com.hulk.processor.ml.MlMetrics;
 import com.hulk.processor.repository.Repository;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -82,8 +82,8 @@ public class BatchConfiguration {
         return new StepBuilder("repositoryStep", jobRepository)
             .<Repository, Repository>chunk(100, transactionManager)
             .reader(repositoryKafkaReader)
-            .writer(compositeRepositoryWriter)
             .readerIsTransactionalQueue()
+            .writer(compositeRepositoryWriter)
             .faultTolerant()
             .build();
     }
@@ -93,13 +93,13 @@ public class BatchConfiguration {
         JobRepository jobRepository,
         PlatformTransactionManager transactionManager,
         ItemReader<Repository> repositoryMlReader,
-        ItemWriter<CompletableFuture<MlMetrics>> compositeMlWriter
+        ItemWriter<CompletableFuture<MlMetrics>> itemWriter
     ) {
         return new StepBuilder("mlStep", jobRepository)
             .<Repository, CompletableFuture<MlMetrics>>chunk(25, transactionManager)
             .reader(repositoryMlReader)
-            .writer(compositeMlWriter)
             .readerIsTransactionalQueue()
+            .writer(itemWriter)
             .faultTolerant()
             .build();
     }

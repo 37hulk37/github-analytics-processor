@@ -9,6 +9,8 @@ import org.springframework.batch.core.JobParametersBuilder;
 import org.springframework.batch.core.explore.JobExplorer;
 import org.springframework.batch.core.launch.JobLauncher;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -16,6 +18,7 @@ import reactor.core.publisher.Mono;
 import java.time.LocalTime;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
@@ -35,7 +38,7 @@ public class RepositoryJobManager implements InitializingBean {
             .collect(Collectors.toMap(Job::getName, job -> job));
     }
 
-    public Mono<JobExecution> startJob(String jobName, LocalTime startTime) {
+    public JobExecution startJob(String jobName, LocalTime startTime) {
         var job = jobsByName.get(jobName);
         if (job == null) {
             throw new ApplicationException(String.format("Job '%s' not found", jobName));
@@ -47,20 +50,20 @@ public class RepositoryJobManager implements InitializingBean {
             .toJobParameters();
 
         try {
-            var jobExecution = jobLauncher.run(job, parameters);
-
-            return Mono.fromCallable(() -> jobExecution);
+            return jobLauncher.run(job, parameters);
         } catch (JobExecutionException e) {
-            return Mono.error(new ApplicationException("Can not run job with parameters:" + parameters, e));
+           throw new ApplicationException("Can not run job with parameters:" + parameters, e);
         }
     }
 
-    public Flux<JobExecution> getJobs(String jobName) {
-        return Flux.fromIterable(jobExplorer.findRunningJobExecutions(jobName));
+    public Set<JobExecution> getJobs(String jobName) {
+        return jobExplorer.findRunningJobExecutions(jobName);
     }
 
-    public Flux<String> getJobNames() {
-        return Flux.fromStream(jobs.stream().map(Job::getName));
+    public List<String> getJobNames() {
+        return jobs.stream()
+            .map(Job::getName)
+            .toList();
     }
 
 }

@@ -16,15 +16,13 @@ public class RepositoryScheduler {
     @Async("repositorySchedulerExecutor")
     @Scheduled(cron = "0 0/30 * * * *")
     public void startRepositoriesProcessing() {
-        repositoryJobManager.startJob("repositoryMetricsJob", LocalTime.now())
-            .subscribe();
+        repositoryJobManager.startJob("repositoryMetricsJob", LocalTime.now());
     }
 
     @Async("repositoryMlSchedulerExecutor")
     @Scheduled(cron = "0 0 * * * *")
     public void startMlProcessing() {
-        repositoryJobManager.startJob("repositoryMlJob", LocalTime.now())
-            .subscribe();
+        repositoryJobManager.startJob("repositoryMlJob", LocalTime.now());
     }
 
 }

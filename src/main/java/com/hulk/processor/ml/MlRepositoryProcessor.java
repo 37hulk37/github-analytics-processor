@@ -1,6 +1,5 @@
 package com.hulk.processor.ml;
 
-import com.hulk.processor.model.MlMetrics;
 import com.hulk.processor.repository.Repository;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;

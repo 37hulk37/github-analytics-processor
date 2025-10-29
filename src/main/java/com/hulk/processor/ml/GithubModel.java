@@ -1,6 +1,5 @@
 package com.hulk.processor.ml;
 
-import com.hulk.processor.model.MlMetrics;
 import com.hulk.processor.repository.Repository;
 import org.tensorflow.SavedModelBundle;
 import org.tensorflow.Tensor;
@@ -29,9 +28,7 @@ public class GithubModel implements MlModel, AutoCloseable {
                 .getFirst()
                 .expect(Double.class);
 
-            var array = toResult(tensor);
-
-            return new MlMetrics();
+            return new MlMetrics(toResult(tensor));
         }
     }
 
