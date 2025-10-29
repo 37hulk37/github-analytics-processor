@@ -59,4 +59,8 @@ public class RepositoryJobManager implements InitializingBean {
         return Flux.fromIterable(jobExplorer.findRunningJobExecutions(jobName));
     }
 
+    public Flux<String> getJobNames() {
+        return Flux.fromStream(jobs.stream().map(Job::getName));
+    }
+
 }

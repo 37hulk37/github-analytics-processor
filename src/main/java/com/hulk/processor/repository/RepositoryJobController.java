@@ -30,6 +30,11 @@ public class RepositoryJobController {
         return repositoryJobManager.getJobs(jobName);
     }
 
+    @GetMapping("/names")
+    public Flux<String> getJobNames() {
+        return repositoryJobManager.getJobNames();
+    }
+
     public record JobRequest(
         String jobName,
         LocalTime startTime
