@@ -1,15 +1,20 @@
 spring:
   application:
     name: processor
+  datasource:
+    url: jdbc:postgresql://localhost:5432/processor-service
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    change-log: classpath:changelog/db.changelog-master.yaml
   elasticsearch:
     uris: //todo
     username: elastic
     password: elastic
-  cloud:
-    zookeeper:
-      connect-string: //todo
-      config:
-        im
+  batch:
+    jdbc:
+      initialize-schema: never
   kafka:
     bootstrap-servers: //todo
     consumer:

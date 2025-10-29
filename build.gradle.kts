@@ -32,6 +32,9 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-elasticsearch")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
 
+    implementation("org.liquibase:liquibase-core")
+    runtimeOnly("org.postgresql:postgresql")
+
     implementation("org.tensorflow:tensorflow:1.15.0")
 
     compileOnly("org.projectlombok:lombok")
@@ -42,7 +45,7 @@ dependencies {
 	testImplementation("org.springframework.kafka:spring-kafka-test")
 
     testImplementation("org.mockito:mockito-core:5.20.0")
-	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     testImplementation("io.projectreactor:reactor-test")
 }
 
