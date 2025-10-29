@@ -59,14 +59,16 @@ public class BatchConfiguration {
     }
 
     @Bean
-    public Job calculateMetricsJob(
-        Step repositoryStep,
-        Step mlStep,
-        JobRepository jobRepository
-    ) {
-        return new JobBuilder("calculateMetricsJob", jobRepository)
+    public Job repositoryMetricsJob(Step repositoryStep, JobRepository jobRepository) {
+        return new JobBuilder("repositoryMetricsJob", jobRepository)
             .start(repositoryStep)
-            .next(mlStep)
+            .build();
+    }
+
+    @Bean
+    public Job repositoryMlJob(Step mlStep, JobRepository jobRepository) {
+        return new JobBuilder("repositoryMlJob", jobRepository)
+            .start(mlStep)
             .build();
     }
 
@@ -106,6 +108,15 @@ public class BatchConfiguration {
     public ExecutorService repositorySchedulerExecutor() {
         var threadFactory = Thread.ofVirtual()
             .name("repository-worker-%d", 0)
+            .factory();
+
+        return Executors.newThreadPerTaskExecutor(threadFactory);
+    }
+
+    @Bean
+    public ExecutorService repositoryMlSchedulerExecutor() {
+        var threadFactory = Thread.ofVirtual()
+            .name("repository-ml-worker-%d", 0)
             .factory();
 
         return Executors.newThreadPerTaskExecutor(threadFactory);
