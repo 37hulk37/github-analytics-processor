@@ -1,0 +1,39 @@
+services:
+  #  app:
+  #    container_name: processor-service
+  #    build: .
+  #    depends_on:
+  #      postgres:
+  #        condition: service_started
+  #      minio:
+  #        condition: service_started
+  #    networks:
+  #      - loader-network
+  #    ports:
+  #      - "8080:8080"
+
+  postgres:
+    image: postgres
+    container_name: processor-service-postgres
+    environment:
+      POSTGRES_DB: processor-service
+      POTSGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    user: postgres
+    networks:
+      - loader-network
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready" ]
+      interval: 1s
+      timeout: 1s
+      retries: 5
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
+
+networks:
+  processor-network:
