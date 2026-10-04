@@ -1,8 +1,11 @@
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+### OS ###
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
 
 ### STS ###
 .apt_generated
@@ -12,15 +15,18 @@ build/
 .settings
 .springBeans
 .sts4-cache
+
+### VS Code ###
+.vscode/
+
+### Gradle / Java build artifacts (any module) ###
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -31,13 +37,3 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Habr hype study: raw data ###
-data/raw/*
-!data/raw/.gitkeep
-
-### Habr hype study: local-only notes ###
-docs/

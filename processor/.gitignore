@@ -1,0 +1,11 @@
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Habr hype study: raw data ###
+data/raw/*
+!data/raw/.gitkeep
+
+### Habr hype study: local-only notes ###
+docs/
