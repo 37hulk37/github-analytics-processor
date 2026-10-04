@@ -1,7 +1,7 @@
 plugins {
-	java
-	id("org.springframework.boot") version "3.5.6"
-	id("io.spring.dependency-management") version "1.1.7"
+    java
+    id("org.springframework.boot") version "4.1.1"
+    id("io.spring.dependency-management") version "1.1.7"
 }
 
 group = "com.hulk"
@@ -10,13 +10,7 @@ description = "processor"
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(21)
-	}
-}
-
-configurations {
-	compileOnly {
-		extendsFrom(configurations.annotationProcessor.get())
+		languageVersion = JavaLanguageVersion.of(25)
 	}
 }
 
@@ -24,14 +18,13 @@ repositories {
 	mavenCentral()
 }
 
-extra["springCloudVersion"] = "2025.0.0"
-
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-batch")
 	implementation("org.springframework.boot:spring-boot-starter-data-elasticsearch")
     implementation("org.springframework.boot:spring-boot-starter-web")
 
     implementation("org.liquibase:liquibase-core")
+    runtimeOnly("org.postgresql:postgresql")
 
     compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
