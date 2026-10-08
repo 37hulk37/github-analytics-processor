@@ -1,0 +1,328 @@
+[
+  {
+    "id": "1026576",
+    "url": "https://habr.com/ru/news/1026576/",
+    "timePublished": "2026-04-22T11:27:25+00:00",
+    "postType": "news",
+    "title": "Microsoft объяснила способ установки нового и более быстрого TypeScript",
+    "lead": "Microsoft выпустила бета-версию TypeScript 7.0, внедрив ряд изменений, направленных на улучшение производительности, стабильности и совместимости. Компания объяснила, как установить её.",
+    "statistics": {
+      "commentsCount": 2,
+      "favoritesCount": 3,
+      "readingCount": 5101,
+      "score": 5,
+      "votesCount": 5,
+      "votesCountPlus": 4,
+      "votesCountMinus": 1,
+      "reach": 8934,
+      "readers": 4071
+    },
+    "hubs": [
+      {
+        "id": "19583",
+        "alias": "dev_management",
+        "title": "Управление разработкой"
+      },
+      {
+        "id": "21370",
+        "alias": "typescript",
+        "title": "TypeScript"
+      },
+      {
+        "id": "17748",
+        "alias": "go",
+        "title": "Go"
+      },
+      {
+        "id": "144",
+        "alias": "open_source",
+        "title": "Open source"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      }
+    ],
+    "tags": [
+      "тестирование",
+      "microsoft",
+      "go",
+      "язык программирования",
+      "бета-версия",
+      "typescript",
+      "typescript 7"
+    ],
+    "matchedTokens": [
+      "TypeScript",
+      "7.0"
+    ]
+  },
+  {
+    "id": "1050634",
+    "url": "https://habr.com/ru/news/1050634/",
+    "timePublished": "2026-06-22T15:21:51+00:00",
+    "postType": "news",
+    "title": "TypeScript 7.0 RC: новый компилятор на Go уже можно проверить в своих проектах",
+    "lead": "Команда TypeScript выпустила релиз-кандидат TypeScript 7.0. Это важный релиз не из-за пары новых флагов, а из-за смены основы компилятора: кодовую базу перенесли с TypeScript/JavaScript на Go.Заявка серьёзная: в ряде сценариев TypeScript 7.0 должен работать примерно в 10 раз быстрее TypeScript 6.0. Ускорение появилось не из-за изменения языка, а за счёт скомпилированного кода и более активного использования параллельной обработки.",
+    "statistics": {
+      "commentsCount": 22,
+      "favoritesCount": 13,
+      "readingCount": 5327,
+      "score": 18,
+      "votesCount": 15,
+      "votesCountPlus": 14,
+      "votesCountMinus": 1,
+      "reach": 11595,
+      "readers": 3836
+    },
+    "hubs": [
+      {
+        "id": "21052",
+        "alias": "otus",
+        "title": "Блог компании OTUS"
+      },
+      {
+        "id": "91",
+        "alias": "webdev",
+        "title": "Веб-разработка"
+      },
+      {
+        "id": "357",
+        "alias": "javascript",
+        "title": "JavaScript"
+      },
+      {
+        "id": "21370",
+        "alias": "typescript",
+        "title": "TypeScript"
+      }
+    ],
+    "tags": [
+      "javascript",
+      "компилятор",
+      "golang",
+      "typescript",
+      "проверка типов",
+      "typescript 7.0",
+      "производительность сборки"
+    ],
+    "matchedTokens": [
+      "TypeScript",
+      "7.0"
+    ]
+  },
+  {
+    "id": "1057656",
+    "url": "https://habr.com/ru/news/1057656/",
+    "timePublished": "2026-07-10T03:14:55+00:00",
+    "postType": "news",
+    "title": "Релиз TypeScript 7.0",
+    "lead": "8 июля 2026 года Microsoft представила релиз TypeScript 7.0. Предыдущая стабильная ветка TypeScript 6.0 проекта популярного языка программирования, работающего на основе JavaScript, вышла в марте 2026 года. Исходный код TypeScript опубликован на GitHub под лицензией Apache License 2.0. Версия TypeScript 5.0 вышла в марте 2023 года.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 3,
+      "readingCount": 867,
+      "score": 5,
+      "votesCount": 3,
+      "votesCountPlus": 3,
+      "votesCountMinus": 0,
+      "reach": 3987,
+      "readers": 700
+    },
+    "hubs": [
+      {
+        "id": "357",
+        "alias": "javascript",
+        "title": "JavaScript"
+      },
+      {
+        "id": "17748",
+        "alias": "go",
+        "title": "Go"
+      },
+      {
+        "id": "21370",
+        "alias": "typescript",
+        "title": "TypeScript"
+      },
+      {
+        "id": "144",
+        "alias": "open_source",
+        "title": "Open source"
+      },
+      {
+        "id": "19583",
+        "alias": "dev_management",
+        "title": "Управление разработкой"
+      }
+    ],
+    "tags": [
+      "typescript",
+      "typescript 7.0"
+    ],
+    "matchedTokens": [
+      "TypeScript",
+      "7.0"
+    ]
+  },
+  {
+    "id": "1057526",
+    "url": "https://habr.com/ru/articles/1057526/",
+    "timePublished": "2026-07-10T09:38:26+00:00",
+    "postType": "article",
+    "title": "TypeScript 7.0 — самое радикальное обновление за 10 лет",
+    "lead": "С самого начала TypeScript обещал обеспечить масштабируемость JavaScript. Строгая типизация и богатый инструментарий позволили разрабатывать нетривиальные, высококачественные приложения под любые платформы.В прошлом году наша команда анонсировала следующий шаг в масштабировании TypeScript: нативный порт на Go, который использует все возможности современного железа. Порт сделан максимально точно: новый код воспроизводит структуру и логику оригинальной кодовой базы, чтобы результаты двух компиляторов совпадали.Ключевое отличие — TypeScript 7 использует скорость нативного кода, разделяемую память при многопоточности и ряд новых оптимизаций. В итоге полная сборка ускоряется в 8–12 раз.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 11,
+      "readingCount": 5664,
+      "score": 12,
+      "votesCount": 10,
+      "votesCountPlus": 9,
+      "votesCountMinus": 1,
+      "reach": 11470,
+      "readers": 3911
+    },
+    "hubs": [
+      {
+        "id": "18694",
+        "alias": "haulmont",
+        "title": "Блог компании Haulmont"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "357",
+        "alias": "javascript",
+        "title": "JavaScript"
+      },
+      {
+        "id": "21370",
+        "alias": "typescript",
+        "title": "TypeScript"
+      }
+    ],
+    "tags": [
+      "typescript 7",
+      "typescript go",
+      "нативный typescript",
+      "ускорение typescript",
+      "typescript компилятор",
+      "tsc производительность",
+      "typescript 7.0 релиз",
+      "переход typescript 7",
+      "typescript lsp",
+      "typescript параллелизация"
+    ],
+    "matchedTokens": [
+      "TypeScript",
+      "7.0"
+    ]
+  },
+  {
+    "id": "1057560",
+    "url": "https://habr.com/ru/articles/1057560/",
+    "timePublished": "2026-07-09T14:01:10+00:00",
+    "postType": "article",
+    "title": "Вышел TypeScript 7.0",
+    "lead": "Сегодня мы с гордостью объявляем о выходе TypeScript 7 — нативной версии TypeScript, которая работает в 10 раз быстрее!С самых первых дней TypeScript обещал сделать JavaScript масштабируемым. Добавив в мир JavaScript строгую проверку типов и мощные инструменты разработки, TypeScript позволил создавать сложные качественные приложения для разных платформ.",
+    "statistics": {
+      "commentsCount": 9,
+      "favoritesCount": 15,
+      "readingCount": 7519,
+      "score": 8,
+      "votesCount": 9,
+      "votesCountPlus": 8,
+      "votesCountMinus": 1,
+      "reach": 13477,
+      "readers": 5157
+    },
+    "hubs": [
+      {
+        "id": "21370",
+        "alias": "typescript",
+        "title": "TypeScript"
+      },
+      {
+        "id": "91",
+        "alias": "webdev",
+        "title": "Веб-разработка"
+      }
+    ],
+    "tags": [
+      "javascript",
+      "frontend",
+      "typescript"
+    ],
+    "matchedTokens": [
+      "TypeScript",
+      "7.0"
+    ]
+  },
+  {
+    "id": "1057640",
+    "url": "https://habr.com/ru/articles/1057640/",
+    "timePublished": "2026-07-13T10:17:58+00:00",
+    "postType": "article",
+    "title": "TypeScript 7 перенесли на Go. Проверяем, действительно ли он быстрее в десять раз",
+    "lead": "Есть одно предложение, которое за последние месяцы перепечатали, кажется, все. Вот оно, в переводе с блога TypeScript:📣 Заявка. «Проверка типов проекта VS Code (около 1,5 млн строк) ускорилась с 77.8 с до 7.5 с». Итог, который команда вынесла в заголовок, — «примерно в 10 раз быстрее».Это не обзор релиза. Это попытка воспроизвести один график — не на кодовой базе Microsoft, а на монорепо, которое я собрал специально под замер, двумя компиляторами на одной машине, с показом каждой цифры и с репозиторием, где любую из них можно получить командой pnpm bench.Сразу спойлер: да, TS7 быстрее, и заметно. Но „в десять раз“ живёт в одном конкретном месте, испаряется в другом, а кое-что важное в 7.0 пока не вошло — и это „кое-что“ важнее скорости.Главная мысль:«10×» — это про чекер на большом проекте, а не про весь ваш день. TS7 радикально ускоряет проверку типов и режет память, и замеры это подтверждают. Но в 7.0 отсутствует стабильный программный API — а с ним из сборки выпадают кастомные трансформеры, tsserver-плагины и типизированный линтинг. Поэтому вопрос миграции — не «стало ли быстрее», а «завязана ли ваша сборка на этот API».",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 8,
+      "readingCount": 2922,
+      "score": 9,
+      "votesCount": 8,
+      "votesCountPlus": 7,
+      "votesCountMinus": 1,
+      "reach": 9126,
+      "readers": 2333
+    },
+    "hubs": [
+      {
+        "id": "18109",
+        "alias": "angular",
+        "title": "Angular"
+      },
+      {
+        "id": "17189",
+        "alias": "itstandarts",
+        "title": "IT-стандарты"
+      },
+      {
+        "id": "357",
+        "alias": "javascript",
+        "title": "JavaScript"
+      },
+      {
+        "id": "17110",
+        "alias": "nodejs",
+        "title": "Node.JS"
+      },
+      {
+        "id": "21370",
+        "alias": "typescript",
+        "title": "TypeScript"
+      }
+    ],
+    "tags": [
+      "benchmark",
+      "tsc",
+      "monorepo",
+      "typescript 7",
+      "typescript go",
+      "typescript compiler",
+      "compiler api",
+      "typescript performance",
+      "typecheck",
+      "frontend tooling"
+    ],
+    "matchedTokens": [
+      "TypeScript",
+      "7.0"
+    ]
+  }
+]

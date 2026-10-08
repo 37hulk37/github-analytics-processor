@@ -1,0 +1,89 @@
+[
+  {
+    "id": "491306",
+    "url": "https://habr.com/ru/news/491306/",
+    "timePublished": "2020-03-06T07:25:25+00:00",
+    "postType": "news",
+    "title": "Let's Encrypt откладывает на время отзыв части проблемных TLS/SSL сертификатов из-за бага 2020.02.29 CAA Rechecking Bug",
+    "lead": "4 марта 2020 года Джош Аас, исполнительный директор Internet Security Research Group (ISRG) опубликовал на корпоративной странице центра сертификации Let's Encrypt информацию о том, что Let's Encrypt не будет в срочном порядке отзывать часть проблемных TLS/SSL сертификатов, которые ранее должны были быть отозваны из-за бага 2020.02.29 CAA Rechecking Bug.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 3,
+      "readingCount": 2783,
+      "score": 11,
+      "votesCount": 7,
+      "votesCountPlus": 6,
+      "votesCountMinus": 1,
+      "reach": 2807,
+      "readers": 2807
+    },
+    "hubs": [
+      {
+        "id": "183",
+        "alias": "domains",
+        "title": "Доменные имена"
+      },
+      {
+        "id": "50",
+        "alias": "infosecurity",
+        "title": "Информационная безопасность"
+      }
+    ],
+    "tags": [
+      "проблема",
+      "let's encrypt",
+      "отзыв сертификатов"
+    ],
+    "matchedTokens": [
+      "Отзыв",
+      "сертификатов",
+      "Let's",
+      "Encrypt"
+    ]
+  },
+  {
+    "id": "491562",
+    "url": "https://habr.com/ru/articles/491562/",
+    "timePublished": "2020-03-08T18:58:01+00:00",
+    "postType": "article",
+    "title": "FOSS News №6 — обзор новостей свободного и открытого ПО за 2-8 марта 2020 года",
+    "lead": "Всем привет! Продолжаем обзоры новостей свободного и открытого ПО (и немного железа). Всё самое главное про пингвинов и не только, в России и мире. В выпуске №6 за 2–8 марта 2020 г.: Выпуск Chrome OS 80 Массовый отзыв сертификатов Let's Encrypt Удаление Эрика Рэймонда из списков рассылки OSI и этические вопросы в открытых лицензиях Что такое Linux и откуда взялись сотни дистрибутивов? Избавленный от Google форк Android добился хороших результатов 3 причины почему системные интеграторы должны использовать Open Source системы Open Source становится больше и богаче, заявляет SUSE Red Hat расширяет свои сертификационные программы Объявлен конкурс программ на базе Open Source для решения проблем климата Будущее Open Source лицензий меняется 17-летняя уязвимость в PPPD подвергает Linux-системы риску удаленных атак ОС Fuchsia переходит на стадию тестирования на сотрудниках Google Session – Open Source мессенджер без необходимости указания номера телефона У проекта KDE Connect появился сайт Релиз Porteus Kiosk 5.0.0 Выпуск пакетного менеджера APT 2.0 Выпуск командной оболочки PowerShell 7.0 Linux Foundation заключил соглашение с OSTIF для проведения аудита безопасности InnerSource: Как лучшие практики Open Source помогают корпоративным командам разработки Каково это, вести 100% Open Source бизнес? X.Org/FreeDesktop.org ищет спонсоров или будет вынуждена отказаться от CI Наиболее частые проблемы с безопасностью при работе с FOSS Эволюция Kali Linux: каково будущее дистрибутива? Преимущества Kubernetes в облачной инфраструктуре на «голом» железе Spotify открывает исходники ML модуля Terraform Drauger OS – ещё один GNU/Linux дистрибутив для игр 8 ножей в спину Linux: от любви до ненависти один баг",
+    "statistics": {
+      "commentsCount": 7,
+      "favoritesCount": 19,
+      "readingCount": 5867,
+      "score": 14,
+      "votesCount": 14,
+      "votesCountPlus": 14,
+      "votesCountMinus": 0,
+      "reach": 5906,
+      "readers": 5905
+    },
+    "hubs": [
+      {
+        "id": "7289",
+        "alias": "nix",
+        "title": "*nix"
+      },
+      {
+        "id": "144",
+        "alias": "open_source",
+        "title": "Open source"
+      }
+    ],
+    "tags": [
+      "новости",
+      "open source",
+      "linux",
+      "дайджест",
+      "free software",
+      "foss news"
+    ],
+    "matchedTokens": [
+      "Отзыв",
+      "сертификатов",
+      "Let's",
+      "Encrypt"
+    ]
+  }
+]

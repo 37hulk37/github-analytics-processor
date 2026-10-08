@@ -1,0 +1,2128 @@
+[
+  {
+    "id": "1011422",
+    "url": "https://habr.com/ru/news/1011422/",
+    "timePublished": "2026-03-17T15:08:10+00:00",
+    "postType": "news",
+    "title": "Вышла Java 26",
+    "lead": "Вышла общедоступная версия Java 26. В этот релиз попало более 2700 закрытых задач и 10 JEP'ов. Release Notes можно посмотреть здесь. Полный список изменений API – здесь.Java 26 не является LTS-релизом, и у него будут выходить обновления только полгода (до сентября 2026 года).Скачать JDK 26 можно по этим ссылкам:Oracle JDK (лицензия NFTC)OpenJDK (лицензия GPLv2 with Classpath Exception)",
+    "statistics": {
+      "commentsCount": 5,
+      "favoritesCount": 18,
+      "readingCount": 9385,
+      "score": 11,
+      "votesCount": 13,
+      "votesCountPlus": 12,
+      "votesCountMinus": 1,
+      "reach": 10431,
+      "readers": 5783
+    },
+    "hubs": [
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "java",
+      "jvm",
+      "jdk",
+      "gc",
+      "openjdk",
+      "g1",
+      "aot",
+      "http3"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1011454",
+    "url": "https://habr.com/ru/news/1011454/",
+    "timePublished": "2026-03-17T15:58:25+00:00",
+    "postType": "news",
+    "title": "Привет, Java 26",
+    "lead": "Встречаем 26 версию нашего любимого языка программирования.Много сильных улучшений в том, что реально влияет на повседневную разработку: сеть, GC, concurrency, безопасность, startup и чистка платформы от старого балласта.",
+    "statistics": {
+      "commentsCount": 4,
+      "favoritesCount": 10,
+      "readingCount": 3551,
+      "score": 8,
+      "votesCount": 9,
+      "votesCountPlus": 8,
+      "votesCountMinus": 1,
+      "reach": 8482,
+      "readers": 2738
+    },
+    "hubs": [
+      {
+        "id": "23393",
+        "alias": "spring_aio",
+        "title": "Блог компании Spring АйО"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "19441",
+        "alias": "kotlin",
+        "title": "Kotlin"
+      }
+    ],
+    "tags": [
+      "java",
+      "jdk",
+      "spring",
+      "spring framework",
+      "kotlin",
+      "spring boot",
+      "jep",
+      "http3",
+      "jdk 26",
+      "jeps"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1013892",
+    "url": "https://habr.com/ru/news/1013892/",
+    "timePublished": "2026-03-23T15:53:25+00:00",
+    "postType": "news",
+    "title": "Вышла Java 26, Applet API удалили, connection pool и Netflix | Spring АйО Подкаст №55",
+    "lead": "Представляем пятьдесят пятый выпуск подкаста команды Spring АйО.Эксперты обсудили: выход Java 26, зачем Java HTTP/3, Netflix и Vector API и многое другое.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 7,
+      "readingCount": 2188,
+      "score": 3,
+      "votesCount": 3,
+      "votesCountPlus": 3,
+      "votesCountMinus": 0,
+      "reach": 6695,
+      "readers": 1606
+    },
+    "hubs": [
+      {
+        "id": "23393",
+        "alias": "spring_aio",
+        "title": "Блог компании Spring АйО"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "19441",
+        "alias": "kotlin",
+        "title": "Kotlin"
+      }
+    ],
+    "tags": [
+      "java",
+      "jdk",
+      "spring",
+      "netflix",
+      "cpu",
+      "kotlin",
+      "spring boot",
+      "http3",
+      "java26",
+      "jdk26"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1014802",
+    "url": "https://habr.com/ru/articles/1014802/",
+    "timePublished": "2026-03-25T11:05:54+00:00",
+    "postType": "article",
+    "title": "Релиз Java 26, Xiaomi в топе и сертификация вайбкодеров",
+    "lead": "Шестой выпуск еженедельных IT-новостей от OpenIDE: Java прощается с аплетами навсегда, Cursor не соблюдает лицензию Kimi, а менеджеры придумали новую единицу измерения продуктивности разработчика.",
+    "statistics": {
+      "commentsCount": 10,
+      "favoritesCount": 6,
+      "readingCount": 3381,
+      "score": 9,
+      "votesCount": 9,
+      "votesCountPlus": 9,
+      "votesCountMinus": 0,
+      "reach": 8675,
+      "readers": 2630
+    },
+    "hubs": [
+      {
+        "id": "18694",
+        "alias": "haulmont",
+        "title": "Блог компании Haulmont"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "21922",
+        "alias": "artificial_intelligence",
+        "title": "Искусственный интеллект"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "openrouter",
+      "kimi k2",
+      "claude certified architect",
+      "java 26",
+      "applet api",
+      "xiaomi mimo",
+      "cursor composer 2",
+      "токены разработчика",
+      "javaone 2026",
+      "заменимость профессий ии"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1019192",
+    "url": "https://habr.com/ru/articles/1019192/",
+    "timePublished": "2026-04-04T08:36:14+00:00",
+    "postType": "article",
+    "title": "Java Digest # 34",
+    "lead": "В этом выпуске мы узнаем, как Java 26 меняет правила игры с десятком новых JEP - от долгожданного шестого превью Structured Concurrency до похорон апплетов и поддержки HTTP/3. Увидим, как IntelliJ IDEA становится умнее с ИИ-агентами, Spring Debugger с отображением бинов и поддержкой Git worktrees. Обсудим Spring AOT, версионирование API в Spring Boot 4.0. Плюс, как всегда, свежие релизы Spring, Gradle, Micronaut, LangChain4j и бенчмарки Quarkus против Spring. Будет интересно!",
+    "statistics": {
+      "commentsCount": 2,
+      "favoritesCount": 7,
+      "readingCount": 2031,
+      "score": 13,
+      "votesCount": 13,
+      "votesCountPlus": 13,
+      "votesCountMinus": 0,
+      "reach": 7613,
+      "readers": 1393
+    },
+    "hubs": [
+      {
+        "id": "17420",
+        "alias": "tbank",
+        "title": "Блог компании Т-Банк"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "java",
+      "jdk",
+      "spring",
+      "intellij idea",
+      "java 26"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1022864",
+    "url": "https://habr.com/ru/articles/1022864/",
+    "timePublished": "2026-04-13T12:30:39+00:00",
+    "postType": "article",
+    "title": "Большая распаковка Java 26. Что этот релиз значит для нас всех?",
+    "lead": "Java 26 вышла 18 марта. В релизе 10 JEP-ов: Structured Concurrency получила шестое превью и API наконец стабилизировался, final-поля начинают путь к настоящей иммутабельности, G1 и ZGC получили улучшения производительности, примитивы заработали в паттернах, а HTTP/3 вошёл в стандартный HttpClient финальной фичей.Разбираем каждое из изменений и смотрим, как перевести реальный проект на Java 26.",
+    "statistics": {
+      "commentsCount": 2,
+      "favoritesCount": 15,
+      "readingCount": 5612,
+      "score": 14,
+      "votesCount": 14,
+      "votesCountPlus": 13,
+      "votesCountMinus": 1,
+      "reach": 9433,
+      "readers": 3558
+    },
+    "hubs": [
+      {
+        "id": "18694",
+        "alias": "haulmont",
+        "title": "Блог компании Haulmont"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      }
+    ],
+    "tags": [
+      "g1",
+      "рефлексия",
+      "spring boot",
+      "jep",
+      "zgc",
+      "structured concurrency",
+      "java 26",
+      "final field",
+      "примитивы в паттернах"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1023450",
+    "url": "https://habr.com/ru/articles/1023450/",
+    "timePublished": "2026-04-14T14:26:56+00:00",
+    "postType": "article",
+    "title": "Claude Mythos, Java 26 и пещерный человек с 16 000 звёзд на GitHub",
+    "lead": "Девятый выпуск еженедельных IT-новостей от OpenIDE. Милла Йовович выложила свой проект в open-source, Claude Code нашел баг в Linux, которому 23 года, Anthropic показали Claude Mythos и сразу закрыли доступ.А Skill Caveman внезапно оказался самым простым и самым эффективным инструментом недели.",
+    "statistics": {
+      "commentsCount": 4,
+      "favoritesCount": 10,
+      "readingCount": 3626,
+      "score": 7,
+      "votesCount": 7,
+      "votesCountPlus": 7,
+      "votesCountMinus": 0,
+      "reach": 10253,
+      "readers": 2660
+    },
+    "hubs": [
+      {
+        "id": "18694",
+        "alias": "haulmont",
+        "title": "Блог компании Haulmont"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "21922",
+        "alias": "artificial_intelligence",
+        "title": "Искусственный интеллект"
+      }
+    ],
+    "tags": [
+      "open-source",
+      "бенчмарки",
+      "токены",
+      "gpt-2",
+      "ии-агенты",
+      "claude code",
+      "vibe-coding",
+      "java 26",
+      "claude mythos",
+      "caveman"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1043556",
+    "url": "https://habr.com/ru/articles/1043556/",
+    "timePublished": "2026-06-05T14:41:55+00:00",
+    "postType": "article",
+    "title": "Java Digest # 36: график выхода JDK 27, Spring Framework 7 в деталях и постмортем OOMKill после миграции на JDK 17",
+    "lead": "Всем привет! 👋👋👋👋👋 Мы — Java-разработчики Т-Банка: Андрей, Арсений, Роман, Константин и Константин. Собираем интересные новости, статьи, туториалы и другие материалы из мира Java-разработки и делимся этим со всем сообществом.В этом выпуске разбираем, почему G1 в JDK 27 окончательно прописывается дефолтным сборщиком мусора, и смотрим, что там с очередным, двенадцатым по счету инкубатором Vector API (спойлер: все по-прежнему ждем Valhalla). Заглянем в Netflix, посмотрим, как раскатили AOT из Project Leyden в прод и срезали время старта сервисов на 15—20%. Поговорим про то, как снимать heap-дампы с прода и не получить по шапке от безопасников, а заодно разберемся, зачем вообще были нужны гибкие конструкторы из Java 25. Посмотрим обзор фич Java 26 от Николая Парлога. Из любопытного — статья, где автор 18 месяцев гонял на проде два одинаковых сервиса на Spring Boot и Node.js и в итоге насчитал разницу в 24 тысячи долларов. Ну и пробежимся по свежим релизам: Micronaut 5.0, Quarkus 3.35 и 3.36, Spring AI и не только. Поехали!",
+    "statistics": {
+      "commentsCount": 1,
+      "favoritesCount": 11,
+      "readingCount": 2017,
+      "score": 10,
+      "votesCount": 10,
+      "votesCountPlus": 10,
+      "votesCountMinus": 0,
+      "reach": 8748,
+      "readers": 1188
+    },
+    "hubs": [
+      {
+        "id": "17420",
+        "alias": "tbank",
+        "title": "Блог компании Т-Банк"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "java",
+      "jvm",
+      "jdk",
+      "spring",
+      "micronaut",
+      "jep",
+      "quarkus",
+      "aot-компиляция",
+      "jdk27"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "438206",
+    "url": "https://habr.com/ru/articles/438206/",
+    "timePublished": "2019-01-31T05:20:07+00:00",
+    "postType": "article",
+    "title": "26 рекомендаций по использованию типа var в Java",
+    "lead": "The Java Local Variable Type Inference (LVTI) или кратко — тип var (идентификатор var — это не ключевое слово, а зарезервированное имя типа) был добавлен в Java 10 с помощью JEP 286: Local-Variable Type Inference. Являясь 100% функцией компилятора, она не влияет на байт-код, время выполнения или производительность. В основном компилятор проверяет правую часть от оператора присваивания и, исходя из нее, определяет конкретный тип переменной, а затем заменяет им var. Кроме того, это полезно для сокращения многословности шаблонного кода, а так же позволяет ускорить сам процесс программирования. Например, очень удобно писать var evenAndOdd =... вместо Map<Boolean, List<Integer>> evenAndOdd =... . Появление var не означает, что его везде и всегда удобно использовать, иногда более практично будет обойтись стандартными средствами. В этой статье мы рассмотрим 26 ситуаций, с примерами того, когда можно использовать var, а когда этого делать не стоит.",
+    "statistics": {
+      "commentsCount": 29,
+      "favoritesCount": 122,
+      "readingCount": 40089,
+      "score": 21,
+      "votesCount": 29,
+      "votesCountPlus": 25,
+      "votesCountMinus": 4,
+      "reach": 41881,
+      "readers": 41825
+    },
+    "hubs": [
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      }
+    ],
+    "tags": [
+      "java",
+      "var",
+      "java core",
+      "java 10"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "934966",
+    "url": "https://habr.com/ru/articles/934966/",
+    "timePublished": "2025-08-07T10:49:27+00:00",
+    "postType": "article",
+    "title": "Java Digest # 27",
+    "lead": "Всем привет! 👋👋👋👋👋 Мы Java-разработчики Т-Банка: Андрей, Арсений, Роман, Константин и Константин. Собираем интересные новости, статьи, туториалы и другие материалы из мира Java-разработки и делимся этим со всем сообществом.Лето в разгаре, а Java-мир не останавливается ни на день. Пока кто-то разъезжается в отпуска, инженеры Oracle и энтузиасты экосистемы выкатывают один апдейт за другим. В этом выпуске вас ждут: JEPs для JDK 25 и 26 — от стабильного JFR до удаления Applet API, милестоны Project Reactor и Spring Framework 7, обновления от Micronaut, Apache Camel и GraalVM, день рождения Kotlin и революционные новости от JetBrain, пачка интересных видео с Java One’25 и Inside Java, обзоры книг, туториалов и просто полезные статьи на каждый день. А еще 30 августа нас ждет встреча на JVM Day в Москве!Заваривайте кофе и читайте — от инженерных мелочей до изменений, которые могут повлиять на архитектуру ваших приложений. Поехали! 🚀",
+    "statistics": {
+      "commentsCount": 3,
+      "favoritesCount": 3,
+      "readingCount": 2461,
+      "score": 17,
+      "votesCount": 16,
+      "votesCountPlus": 15,
+      "votesCountMinus": 1,
+      "reach": 8365,
+      "readers": 3819
+    },
+    "hubs": [
+      {
+        "id": "17420",
+        "alias": "tbank",
+        "title": "Блог компании Т-Банк"
+      },
+      {
+        "id": "19441",
+        "alias": "kotlin",
+        "title": "Kotlin"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "java",
+      "программирование",
+      "jvm",
+      "jdk",
+      "kotlin"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1042294",
+    "url": "https://habr.com/ru/articles/1042294/",
+    "timePublished": "2026-06-01T14:48:14+00:00",
+    "postType": "article",
+    "title": "Перевополщение Stable Values в JDK 26",
+    "lead": "В новом переводе от команды Spring АйО рассмотрим ленивую инициализацию в Java , которая почти всегда значит: поле сначала null, потом double-checked locking, volatile, синхронизация. Ошибиться легко, а final не поставить. Итог - код хрупче и JVM хуже делает constant folding.В JDK 26 (preview, JEP 526) добавили LazyConstant<T>: final поле, рецепт вычисления через Supplier, значение доступно черезget(). Supplier выполнится при первом get и только один раз успешно, даже при гонке потоков. Кроме этого значение помечается как @Stable - JVM может считать его константой и агрессивнее оптимизировать.Граничные случаи: null нельзя; не сериализуется; исключение из Supplier пробросится и следующая попытка снова пересчитает; equals у LazyConstant - только identity.Для 1:n есть List.ofLazy и Map.ofLazy: элементы/значения считаются по индексу/ключу по требованию и кэшируются.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 11,
+      "readingCount": 1832,
+      "score": 7,
+      "votesCount": 7,
+      "votesCountPlus": 7,
+      "votesCountMinus": 0,
+      "reach": 9135,
+      "readers": 1149
+    },
+    "hubs": [
+      {
+        "id": "23393",
+        "alias": "spring_aio",
+        "title": "Блог компании Spring АйО"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "19441",
+        "alias": "kotlin",
+        "title": "Kotlin"
+      }
+    ],
+    "tags": [
+      "java",
+      "performance",
+      "jdk",
+      "performance optimization",
+      "kotlin",
+      "perf",
+      "jdk 26"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1051930",
+    "url": "https://habr.com/ru/articles/1051930/",
+    "timePublished": "2026-06-25T14:40:50+00:00",
+    "postType": "article",
+    "title": "Java против Go в 2026: бенчмарк через шесть лет показал другую картину",
+    "lead": "Java на бенчмарках обогнала Go при росте нагрузки: повтор эксперимента 2020 года в котором Mark Nelson и Peter Nagy сравнивали микросервисы на Go и Java на одном железе.На маленьких нагрузках результаты совпадали. В 2026-м повторили тест на актуальных версиях: Go 1.26, Oracle JDK 26, JDK с AOT-кэшем Leyden, Helidon SE 4.4 на virtual threads. При лёгкой нагрузке Go и Java идут вровень. При высокой нагрузке Java с Leyden AOT обгоняет Go почти вдвое. Go не выиграл ни одного теста 2020 года. Leyden AOT — почти все. Авторы подчёркивают: дело не в языке, а в том, что рантайм, фреймворк и настройки сети влияют сильнее, чем выбор языка.",
+    "statistics": {
+      "commentsCount": 41,
+      "favoritesCount": 49,
+      "readingCount": 24099,
+      "score": 12,
+      "votesCount": 43,
+      "votesCountPlus": 26,
+      "votesCountMinus": 17,
+      "reach": 26475,
+      "readers": 18494
+    },
+    "hubs": [
+      {
+        "id": "18694",
+        "alias": "haulmont",
+        "title": "Блог компании Haulmont"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "17748",
+        "alias": "go",
+        "title": "Go"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "java",
+      "go",
+      "helidon",
+      "virtual threads",
+      "виртуальные потоки",
+      "сравнение языков программирования",
+      "производительность jvm",
+      "leyden aot",
+      "бенчмарк микросервисов",
+      "oracle jdk"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "925608",
+    "url": "https://habr.com/ru/articles/925608/",
+    "timePublished": "2025-07-07T11:43:43+00:00",
+    "postType": "article",
+    "title": "Java Digest # 26",
+    "lead": "Всем привет! 👋👋👋👋👋 Мы Java-разработчики Т-Банка: Андрей, Арсений, Роман, Константин и Константин. Собираем интересные новости, статьи, туториалы и другие материалы из мира Java-разработки и делимся этим со всем сообществом.В этом выпуске будут материалы о том, как ускорить запуск приложений с помощью ReadyNow и CRaC — двух подходов к оптимизации старта. Разберем тонкости аннотации @TestInstance(PER_CLASS) в JUnit 5 и ее влияние на жизненный цикл тестов. Тем, кто работает со Spring, может пригодиться обзор Spring Debugger от JetBrains — плагина, который делает отладку наглядной и удобной. Еще будет доклад о повышении производительности Spring Data JPA и Hibernate. И в завершение — сравнение FFM API с Unsafe: посмотрим, какой трейдофф между скоростью и безопасностью предлагает новый подход. Приятного прочтения!",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 18,
+      "readingCount": 3452,
+      "score": 13,
+      "votesCount": 13,
+      "votesCountPlus": 13,
+      "votesCountMinus": 0,
+      "reach": 5949,
+      "readers": 5382
+    },
+    "hubs": [
+      {
+        "id": "17420",
+        "alias": "tbank",
+        "title": "Блог компании Т-Банк"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "19441",
+        "alias": "kotlin",
+        "title": "Kotlin"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      }
+    ],
+    "tags": [
+      "java",
+      "spring",
+      "hibernate",
+      "kotlin",
+      "jep",
+      "leyden"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "123991",
+    "url": "https://habr.com/ru/articles/123991/",
+    "timePublished": "2011-07-12T16:35:44+00:00",
+    "postType": "article",
+    "title": "JDK7 Launch — отпразнуем вместе новый релиз Java в Санкт-Петербурге",
+    "lead": "Недалек день выхода в свет релиза JDK 7. Уже целых 6 лет у нас не было такого повода собраться вместе. За это время эволюционировала не только Java, но и мы с вами. Уверен, у нас есть что рассказать друг другу. Приходите в Центр разработки Oracle в Санкт-Петербурге 26 июля в 19:00. Программа встречи состоит из двух частей: Первая часть (19:00 — 20:00) — это цикл 5-7 минутных презентаций инженеров Oracle, участвующих в создании Java SE 7, либо использующих новый релиз в повседневной работе, а также всех посетителей, кто пожелает рассказать об использовании Java на практике. Цель этой части — инициировать дискуссии. Вторая часть (20:00 — 22:00) — неформальное общение. Задайте вопросы инженерам — авторы лучших получат призы. Без памятных сувениров мы не отпустим никого. Закуски и напитки — за наш счет. Пожалуйста зарегистрируйтесь для участия, эта несложная процедура ускорит процесс прохода в офис Oracle: http://oracle.timepad.ru/event/9717 Скачать релиз-кандидат JDK 7 можно здесь: http://jdk7.java.net/preview/",
+    "statistics": {
+      "commentsCount": 9,
+      "favoritesCount": 0,
+      "readingCount": 598,
+      "score": 6,
+      "votesCount": 10,
+      "votesCountPlus": 8,
+      "votesCountMinus": 2,
+      "reach": 634,
+      "readers": 630
+    },
+    "hubs": [
+      {
+        "id": "465",
+        "alias": "i_am_advertising",
+        "title": "Я пиарюсь"
+      }
+    ],
+    "tags": [
+      "java",
+      "jdk7",
+      "javase",
+      "jdk7 launch",
+      "новая версия java"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "143218",
+    "url": "https://habr.com/ru/articles/143218/",
+    "timePublished": "2012-05-03T09:32:34+00:00",
+    "postType": "article",
+    "title": "Андрей Бреслав — Язык Kotlin для платформы Java",
+    "lead": "Привет, Хабр! С любезного разрешения сообщества Java-разработчиков JUG.ru мы публикуем видеозапись выступления Андрея Бреслава о новом языке программирования Kotlin для платформы Java, которое состоялось на встрече 26 апреля.",
+    "statistics": {
+      "commentsCount": 25,
+      "favoritesCount": 53,
+      "readingCount": 12865,
+      "score": 32,
+      "votesCount": 42,
+      "votesCountPlus": 37,
+      "votesCountMinus": 5,
+      "reach": 12926,
+      "readers": 12916
+    },
+    "hubs": [
+      {
+        "id": "7575",
+        "alias": "JetBrains",
+        "title": "Блог компании JetBrains"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "19441",
+        "alias": "kotlin",
+        "title": "Kotlin"
+      }
+    ],
+    "tags": [
+      "java",
+      "jetbrains",
+      "kotlin",
+      "jug.ru"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "567552",
+    "url": "https://habr.com/ru/news/567552/",
+    "timePublished": "2021-07-13T13:48:48+00:00",
+    "postType": "news",
+    "title": "EPAM Anywhere запускает Java Hiring Week для специалистов Middle+",
+    "lead": "Java Hiring Week стартует 26 июля и продлится до 30 июля. Это шанс получить оффер от EPAM Anywhere в течение 48 часов и бонус в размере до 375 000 рублей.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 0,
+      "readingCount": 2730,
+      "score": 4,
+      "votesCount": 4,
+      "votesCountPlus": 2,
+      "votesCountMinus": 2,
+      "reach": 2756,
+      "readers": 2753
+    },
+    "hubs": [
+      {
+        "id": "17433",
+        "alias": "epam_systems",
+        "title": "Блог компании EPAM"
+      },
+      {
+        "id": "20740",
+        "alias": "career",
+        "title": "Карьера в IT-индустрии"
+      },
+      {
+        "id": "22470",
+        "alias": "remote",
+        "title": "Удалённая работа"
+      }
+    ],
+    "tags": [
+      "java",
+      "epam",
+      "hiring week"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "911340",
+    "url": "https://habr.com/ru/news/911340/",
+    "timePublished": "2025-05-21T08:03:28+00:00",
+    "postType": "news",
+    "title": "Вышла интегрированная среда разработки Apache NetBeans 26",
+    "lead": "20 мая 2025 года состоялся релиз интегрированной среды разработки Apache NetBeans 26. Проект имеет поддержку языков программирования Java SE, Java EE, PHP, C/C++, JavaScript, Rust и Groovy. Готовые сборки проекта NetBeans 26 сформированы для скачивания под Linux (snapcraft.io, flathub), Windows и macOS. Исходный код решения написан в основном на Java и опубликован на GitHub под лицензией Apache License 2.0. 1 декабря 2023 года состоялся релиз Apache NetBeans 20. Релиз Apache NetBeans 25 произошёл в феврале 2025 года.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 2,
+      "readingCount": 1648,
+      "score": 5,
+      "votesCount": 5,
+      "votesCountPlus": 5,
+      "votesCountMinus": 0,
+      "reach": 2611,
+      "readers": 2600
+    },
+    "hubs": [
+      {
+        "id": "221",
+        "alias": "sys_admin",
+        "title": "Системное администрирование"
+      },
+      {
+        "id": "21918",
+        "alias": "soft",
+        "title": "Софт"
+      },
+      {
+        "id": "17697",
+        "alias": "apache",
+        "title": "Apache"
+      },
+      {
+        "id": "23232",
+        "alias": "txt_ide",
+        "title": "Текстовые редакторы и IDE"
+      },
+      {
+        "id": "144",
+        "alias": "open_source",
+        "title": "Open source"
+      }
+    ],
+    "tags": [
+      "netbeans",
+      "apache netbeans",
+      "apache netbeans 26"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "922700",
+    "url": "https://habr.com/ru/news/922700/",
+    "timePublished": "2025-06-27T16:26:42+00:00",
+    "postType": "news",
+    "title": "Вышла Jakarta EE 11 — крупнейшее обновление платформы с упором на Java 21, облачные приложения и производительность",
+    "lead": "26 июня 2025 года рабочая группа Jakarta EE под эгидой Eclipse Foundation объявила о выходе Jakarta EE 11 — новой версии промышленной платформы для разработки корпоративных Java-приложений. Релиз продолжает вектор на упрощение работы разработчиков, тестирование и поддержку cloud native решений. Важное отличие Jakarta EE 11 — официальная поддержка Java 21, включая виртуальные потоки.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 8,
+      "readingCount": 5359,
+      "score": 7,
+      "votesCount": 7,
+      "votesCountPlus": 7,
+      "votesCountMinus": 0,
+      "reach": 8575,
+      "readers": 8507
+    },
+    "hubs": [
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "19441",
+        "alias": "kotlin",
+        "title": "Kotlin"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "java",
+      "spring framework",
+      "jakarta",
+      "javax"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "959850",
+    "url": "https://habr.com/ru/articles/959850/",
+    "timePublished": "2025-10-24T15:12:52+00:00",
+    "postType": "article",
+    "title": "Поддержка HTTP/3 в Java: что нового в JDK 26 и как это использовать",
+    "lead": "В JDK 26 появилась долгожданная поддержка HTTP/3 в стандартном классе HttpClient. Хотя само API почти не изменилось, теперь можно явно указывать предпочтение использования HTTP/3 как на уровне клиента, так и на уровне запроса.В новом переводе от команды Spring АйО подробно описывается, как работает выбор версии HTTP, что такое Http3DiscoveryMode, как принудительно использовать HTTP/3 и как HttpClient \"обучается\" на основе заголовков alt-svc.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 36,
+      "readingCount": 8144,
+      "score": 9,
+      "votesCount": 8,
+      "votesCountPlus": 8,
+      "votesCountMinus": 0,
+      "reach": 13337,
+      "readers": 5008
+    },
+    "hubs": [
+      {
+        "id": "23393",
+        "alias": "spring_aio",
+        "title": "Блог компании Spring АйО"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "19441",
+        "alias": "kotlin",
+        "title": "Kotlin"
+      }
+    ],
+    "tags": [
+      "java",
+      "http",
+      "jdk",
+      "spring",
+      "kotlin",
+      "http2",
+      "spring boot",
+      "http 3.0",
+      "http 3",
+      "jdk 26"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "963296",
+    "url": "https://habr.com/ru/articles/963296/",
+    "timePublished": "2025-11-06T09:12:44+00:00",
+    "postType": "article",
+    "title": "Java Digest #30",
+    "lead": "Всем привет! 👋👋👋👋👋Мы Java-разработчики Т-Банка: Андрей, Арсений, Роман, Константин и Константин. Собираем интересные новости, статьи, туториалы и другие материалы из мира Java-разработки и делимся этим со всем сообществом.Октябрь выдался интересным: JDK 26 приносит поддержку HTTP/3, Vector API снова в инкубации, а Swing внезапно обзаводится своим DatePicker — да, 2025-й, а Swing жив! Разработчики обсуждают Leyden и GPU-ускорение для Java-ИИ, а Oracle чинит 15 уязвимостей. В статьях свежие оптимизации ZGC, разбор виртуальных потоков, Jackson 3, Kafka Queues и немного философии про «хороший вкус» в разработке. А под конец релизы, от JUnit 6 до Spring 6.2.12. Заваривайте кофе, обновляйтесь до JDK 25 и читайте. Поехали 🚀",
+    "statistics": {
+      "commentsCount": 1,
+      "favoritesCount": 11,
+      "readingCount": 2331,
+      "score": 17,
+      "votesCount": 17,
+      "votesCountPlus": 17,
+      "votesCountMinus": 0,
+      "reach": 7672,
+      "readers": 1480
+    },
+    "hubs": [
+      {
+        "id": "17420",
+        "alias": "tbank",
+        "title": "Блог компании Т-Банк"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      }
+    ],
+    "tags": [
+      "java",
+      "jdk",
+      "spring",
+      "jackson",
+      "spring boot"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "973720",
+    "url": "https://habr.com/ru/articles/973720/",
+    "timePublished": "2025-12-05T13:20:25+00:00",
+    "postType": "article",
+    "title": "Java Digest #31",
+    "lead": "Всем привет! 👋👋👋👋👋 Мы — Java-разработчики Т-Банка: Андрей, Арсений, Роман, Константин и Константин. Собираем интересные новости, статьи, туториалы и другие материалы из мира Java-разработки и делимся со всем сообществом.Этот месяц в мире Java выдался насыщенным. В JDK 26 готовят превью Lazy Constants и Structured Concurrency, собираются убрать режим строк только UTF‑16, а стандартный HttpClient получает более гибкую поддержку TLS.Главное событие — GA‑релизы Spring Framework 7 и Spring Boot 4: модульная автоконфигурация, новый HTTP‑клиент, версионирование REST API, переход на Jackson 3 и множество других улучшений.Из практики: разбор пагинации в Spring Data JPA, подводные камни MapStruct и заметка о балансе между чтением и написанием кода. Приятного чтения!",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 11,
+      "readingCount": 3196,
+      "score": 19,
+      "votesCount": 17,
+      "votesCountPlus": 17,
+      "votesCountMinus": 0,
+      "reach": 8168,
+      "readers": 1909
+    },
+    "hubs": [
+      {
+        "id": "17420",
+        "alias": "tbank",
+        "title": "Блог компании Т-Банк"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "19441",
+        "alias": "kotlin",
+        "title": "Kotlin"
+      }
+    ],
+    "tags": [
+      "java",
+      "jdk",
+      "spring",
+      "kotlin",
+      "spring-boot",
+      "kora"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1067456",
+    "url": "https://habr.com/ru/news/1067456/",
+    "timePublished": "2026-08-06T10:45:01+00:00",
+    "postType": "news",
+    "title": "Вам доклады по Go или Java? VK приглашает на «Митап с двойной начинкой»",
+    "lead": "26 августа VK собирает Go- и Java-инженеров, чтобы прокачать знания в разработке и архитектуре высоконагруженных сервисов. Вас ждут: летний Санкт-Петербург, любимый стритфуд, феерический закат, два трека докладов от ведущих инженеров VK и приглашённых экспертов, квиз, мастер-класс и вечеринка!",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 2,
+      "readingCount": 324,
+      "score": 3,
+      "votesCount": 1,
+      "votesCountPlus": 1,
+      "votesCountMinus": 0,
+      "reach": 7917,
+      "readers": 262
+    },
+    "hubs": [
+      {
+        "id": "4992",
+        "alias": "vk",
+        "title": "Блог компании VK"
+      },
+      {
+        "id": "17350",
+        "alias": "s_admin",
+        "title": "Серверное администрирование"
+      },
+      {
+        "id": "6398",
+        "alias": "it-infrastructure",
+        "title": "IT-инфраструктура"
+      },
+      {
+        "id": "17748",
+        "alias": "go",
+        "title": "Go"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "разработка",
+      "java",
+      "go",
+      "vk",
+      "бэкенд",
+      "митап"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "241411",
+    "url": "https://habr.com/ru/articles/241411/",
+    "timePublished": "2014-10-24T06:01:53+00:00",
+    "postType": "article",
+    "title": "Перевод часов в России 26 октября и Java",
+    "lead": "Всем привет! Многие знакомые программисты считают, что для того, чтобы перевести часы в Java на новую Московскую таймзону (которая наступит уже 26 октября, таймзона Europe/Moscow станет равна GMT+3, а не GMT+4, как сейчас — и все остальные русские таймзоны тоже), достаточно поставить на Windows обновления, а на Unix — JDK версии 1.7.0_72 (в статье речь про JDK7, однако информация актуальна для любой ветки, это касается и 5, и 6, и 8). Так вот, это заблуждение — просто апгрейд JDK на Unix до 1.7.0_72 не годится. Внутри JDK пакетов есть файлики таймзон (пакет tzdata), вот здесь указано, какой пакет в какой дистрибутив входит и указан контент tzdata пакетов: www.oracle.com/technetwork/java/javase/tzdata-versions-138805.html Как видно, чтобы получить апдейт к русским таймзонам, нужен пакет как минимум tzdata2014f. При этом в последних версиях JDK присутствует только tzdata2014c. Как это решить?",
+    "statistics": {
+      "commentsCount": 21,
+      "favoritesCount": 80,
+      "readingCount": 36396,
+      "score": 21,
+      "votesCount": 21,
+      "votesCountPlus": 21,
+      "votesCountMinus": 0,
+      "reach": 36548,
+      "readers": 36543
+    },
+    "hubs": [
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "java",
+      "msk",
+      "tzdata",
+      "перевод времени 2014"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "348436",
+    "url": "https://habr.com/ru/articles/348436/",
+    "timePublished": "2018-02-14T07:31:58+00:00",
+    "postType": "article",
+    "title": "Сборка проектов с dapp. Часть 1: Java",
+    "lead": "Эта статья — начало цикла о сборке dapp'ом приложений на различных языках, платформах, технологических стеках. Предыдущие статьи про dapp (см. ссылки в конце материала) были больше обзорными, описывали возможности dapp. Теперь же пора поговорить более предметно и поделиться конкретным опытом работы с проектами. В связи с недавним релизом dapp 0.26.2 я заодно покажу, как описывать сборку в YAML-файле.",
+    "statistics": {
+      "commentsCount": 2,
+      "favoritesCount": 30,
+      "readingCount": 6598,
+      "score": 19,
+      "votesCount": 19,
+      "votesCountPlus": 19,
+      "votesCountMinus": 0,
+      "reach": 6715,
+      "readers": 6704
+    },
+    "hubs": [
+      {
+        "id": "20940",
+        "alias": "flant",
+        "title": "Блог компании Флант"
+      },
+      {
+        "id": "19816",
+        "alias": "build_automation",
+        "title": "Системы сборки"
+      },
+      {
+        "id": "20788",
+        "alias": "devops",
+        "title": "DevOps"
+      }
+    ],
+    "tags": [
+      "java",
+      "docker",
+      "dapp",
+      "werf"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "457408",
+    "url": "https://habr.com/ru/articles/457408/",
+    "timePublished": "2019-06-24T12:09:00+00:00",
+    "postType": "article",
+    "title": "Приглашаем на DINS Java EVENING 26 июня",
+    "lead": "Рады пригласить всех интересующихся java-разработкой на очередной открытый DINS Java EVENING, который пройдет в нашем офисе на Старо-Петергофском, 19. На встрече мы познакомимся с опытом TextBack и узнаем, как проходит их миграция с Vert.x на Spring. Коллега из Genestack поделится своим опытом построения билд-системы на Gradle в большом проекте с нуля. Под катом — подробнее о докладах и спикерах, ссылка на регистрацию для участия во встрече.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 5,
+      "readingCount": 1216,
+      "score": 9,
+      "votesCount": 11,
+      "votesCountPlus": 10,
+      "votesCountMinus": 1,
+      "reach": 1256,
+      "readers": 1249
+    },
+    "hubs": [
+      {
+        "id": "22105",
+        "alias": "dins",
+        "title": "Блог компании DINS"
+      },
+      {
+        "id": "21372",
+        "alias": "gradle",
+        "title": "Gradle"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "22115",
+        "alias": "microservices",
+        "title": "Микросервисы"
+      }
+    ],
+    "tags": [
+      "java",
+      "spring",
+      "meetup",
+      "gradle",
+      "vert.x",
+      "dins"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "469303",
+    "url": "https://habr.com/ru/articles/469303/",
+    "timePublished": "2019-09-29T17:11:32+00:00",
+    "postType": "article",
+    "title": "Андрей Беляев про рефлексию в Java на встрече jug.msk.ru",
+    "lead": "В прошедший четверг, 26 сентября 2019 года, в офисе компании КРОК на встрече московского сообщества Java-разработчиков jug.msk.ru выступил Андрей Беляев с докладом «Уменьшаем количество рефлексии в коде».",
+    "statistics": {
+      "commentsCount": 6,
+      "favoritesCount": 26,
+      "readingCount": 3302,
+      "score": 16,
+      "votesCount": 20,
+      "votesCountPlus": 18,
+      "votesCountMinus": 2,
+      "reach": 3353,
+      "readers": 3349
+    },
+    "hubs": [
+      {
+        "id": "18226",
+        "alias": "jugru",
+        "title": "Блог компании JUG Ru Group"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "java",
+      "reflection",
+      "jug",
+      "jug.msk.ru"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "884358",
+    "url": "https://habr.com/ru/articles/884358/",
+    "timePublished": "2025-02-28T05:59:03+00:00",
+    "postType": "article",
+    "title": "Разработка приложения с oauth2Login авторизацией пользователя: Java 17 + SpringBoot 3.4 + Keycloak 26",
+    "lead": "Столкнулась на проекте с задачей по настройке флоу auth2 для Java приложения с использованием Keycloak в качестве сервера авторизации.Вроде бы информации много на разных ресурсах и документация есть, но встречаюсь с такими нюансами: версии Keycloak-а меняются так, что утсраевают старые примеры, никто уже не использует их адаптер, на который массу примеров; меняются версии Spring и их примеры тоже быстро устаревают и прошлые варианты реализации всё равно надо по новому переписывать в новых версиях. Плюс для меня это был новый опыт работы с auth2, потому, конечно, множество источников пришлось перелопатить.Потому решила написать небольшую инструкцию как в общем я реализовывала эту задачу.Версии на момент разработки: Java Coretto 17, SpringBoot 3.4.1, Keycloak 26.0.7.Репозиторий:https://github.com/ElenaSpb/keycloak-example1. Настройка Keycloak для локальной разработки1.1 Cкачиваем последнюю версию, запускаем.У меня он скачен в c:\\distr\\keycloak, перехожу там в папку \\bin и запускаю сервер Keycloak командой kc.bat start-dev --http-port 8085 . На порту 8085 в dev профиле делаю.1.2 При первом запуске он просит создать пользователя temporary admin user, админа сервера то есть, задав логин и пароль, создаю lenas / lenas. Вот логи:",
+    "statistics": {
+      "commentsCount": 11,
+      "favoritesCount": 58,
+      "readingCount": 7688,
+      "score": 0,
+      "votesCount": 0,
+      "votesCountPlus": 0,
+      "votesCountMinus": 0,
+      "reach": 10814,
+      "readers": 10791
+    },
+    "hubs": [
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "ajax",
+      "java",
+      "authorization",
+      "spring security",
+      "spring boot",
+      "keycloak",
+      "oauth2login",
+      "authorization-code",
+      "302 redirect",
+      "cross site redirect"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "87973",
+    "url": "https://habr.com/ru/articles/87973/",
+    "timePublished": "2010-03-21T14:29:54+00:00",
+    "postType": "article",
+    "title": "Настраиваем Tomcat для работы с JSF2 и другими компонентами Java EE 6",
+    "lead": "Данная статья описывает по шагам как настроить Tomcat (на текущий момент версия 6.0.26) на работу с разными компонентами Java EE 6. Unified EL 2.2 — язык выражений для JSF JSF 2.0 реализация — Mojarra (документация) JSR 299 реализация — Weld (документация) JSR 303 Bean Validation реализация — Hibernate Validator (документация) JPA 2.0 реализация — EclipseLink Вы можете пропустить чтение этой статьи и сразу получить настроенный Tomcat и пример приложения.",
+    "statistics": {
+      "commentsCount": 11,
+      "favoritesCount": 48,
+      "readingCount": 20400,
+      "score": 24,
+      "votesCount": 30,
+      "votesCountPlus": 27,
+      "votesCountMinus": 3,
+      "reach": 20571,
+      "readers": 20566
+    },
+    "hubs": [
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "tomcat",
+      "javaee",
+      "jsf2"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "735528",
+    "url": "https://habr.com/ru/news/735528/",
+    "timePublished": "2023-05-17T15:30:01+00:00",
+    "postType": "news",
+    "title": "Курс «Apache Kafka для разработчиков» — старт 26 мая",
+    "lead": "Помните в школе в конце мая давали список литературы на лето и многие его не открывали до конца августа? У нас иначе и по-взрослому. Даем не список, а видеоуроки и онлайн-встречи. Не книги, а практику на стендах. И чтобы не просто прочитать и забыть, а чтобы уже летом выйти на новый уровень по хард-скиллам.Apache Kafka для разработчиков — это углубленный курс с практикой на Java или Golang и платформой Spring+Docker+Postgres и вот это вот всё. Подойдет для инженеров инфраструктуры и для разработчиков.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 0,
+      "readingCount": 1062,
+      "score": 4,
+      "votesCount": 4,
+      "votesCountPlus": 4,
+      "votesCountMinus": 0,
+      "reach": 1339,
+      "readers": 1334
+    },
+    "hubs": [
+      {
+        "id": "17901",
+        "alias": "slurm",
+        "title": "Блог компании Слёрм"
+      }
+    ],
+    "tags": [
+      "разработка",
+      "карьера",
+      "образование онлайн",
+      "it-инфраструктура",
+      "образование в it",
+      "kafka",
+      "apache kafka"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "465269",
+    "url": "https://habr.com/ru/articles/465269/",
+    "timePublished": "2019-08-28T10:32:11+00:00",
+    "postType": "article",
+    "title": "Тренинг Cisco 200-125 CCNA v3.0. День 26. DNS и DHCP",
+    "lead": "Система распределения доменных имен DNS и протокол динамической настройки узла DHCP являются очень важными для сетей, особенно для сети Интернет, так как позволяют настроить доступ к интернету, сконфигурировать браузер и т.д. На предыдущих уроках мы уже рассматривали настройку DHCP-сервера, так что не будем терять время и приступим к уроку. Сегодня мы рассмотрим три темы: работу DNS, настройку DNS и проблемы, которые могут встретиться при использовании этой системы, а также настройку и проблемы DHCP. Перед тем, как двинуться дальше, мы должны рассмотреть несколько вещей. Они не являются частью тематики курса CCNA, но нужны для понимания базовых понятий того, как осуществляется хостинг нового веб-сайта. Если вас интересует создание сайтов, вы хотите узнать о HTML, CSS, PHP, Java-script, хочу сказать, что я собираюсь сделать новую серию видеоуроков о том, как создавать сайты. Однако учитывая, что я занимаюсь этим в свободное от основной работы время, эта серия выйдет ещё не скоро. Пока же я хочу рассказать о некоторых основах сайтостроительства, касающихся не столько разработки сайтов, сколько хостинга и сетевого обеспечения работы веб-страниц.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 65,
+      "readingCount": 15196,
+      "score": 13,
+      "votesCount": 15,
+      "votesCountPlus": 14,
+      "votesCountMinus": 1,
+      "reach": 15889,
+      "readers": 15845
+    },
+    "hubs": [
+      {
+        "id": "17847",
+        "alias": "ua-hosting",
+        "title": "Блог компании ua-hosting.company"
+      },
+      {
+        "id": "20",
+        "alias": "hosting",
+        "title": "Хостинг"
+      },
+      {
+        "id": "17123",
+        "alias": "network_technologies",
+        "title": "Сетевые технологии"
+      },
+      {
+        "id": "6398",
+        "alias": "it-infrastructure",
+        "title": "IT-инфраструктура"
+      },
+      {
+        "id": "6900",
+        "alias": "cisconetworks",
+        "title": "Cisco"
+      }
+    ],
+    "tags": [
+      "cisco",
+      "ccna"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1072164",
+    "url": "https://habr.com/ru/news/1072164/",
+    "timePublished": "2026-08-19T14:14:30+00:00",
+    "postType": "news",
+    "title": "Неделя до «Митапа с двойной начинкой»",
+    "lead": "26 августа собираем Go- и Java-разработчиков на мероприятие от VK Just Tech. Вас ждут два трека выступлений, общение и, конечно, афтепати с квизом, шавермой и мастер-классом.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 2,
+      "readingCount": 128,
+      "score": 4,
+      "votesCount": 2,
+      "votesCountPlus": 2,
+      "votesCountMinus": 0,
+      "reach": 6801,
+      "readers": 102
+    },
+    "hubs": [
+      {
+        "id": "4992",
+        "alias": "vk",
+        "title": "Блог компании VK"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "17748",
+        "alias": "go",
+        "title": "Go"
+      },
+      {
+        "id": "17350",
+        "alias": "s_admin",
+        "title": "Серверное администрирование"
+      },
+      {
+        "id": "6398",
+        "alias": "it-infrastructure",
+        "title": "IT-инфраструктура"
+      }
+    ],
+    "tags": [
+      "разработка",
+      "java",
+      "go",
+      "vk",
+      "митап"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "345084",
+    "url": "https://habr.com/ru/articles/345084/",
+    "timePublished": "2017-12-19T13:50:27+00:00",
+    "postType": "article",
+    "title": "Voxxed Days Minsk",
+    "lead": "Станьте частью Voxxed Days Minsk – главного JAVA события 2018 года. 26 мая 2018 года в Минске соберутся JAVA рок-звезды, чтобы представить взрывные темы, от которых стынет кровь у гиков по всему миру. Что будет на конференции?",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 1,
+      "readingCount": 1292,
+      "score": 0,
+      "votesCount": 0,
+      "votesCountPlus": 0,
+      "votesCountMinus": 0,
+      "reach": 1320,
+      "readers": 1318
+    },
+    "hubs": [
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "20754",
+        "alias": "tech_events",
+        "title": "Конференции"
+      }
+    ],
+    "tags": [
+      "java",
+      "conference",
+      "voxxed",
+      "voxxed days minsk",
+      "devoxx",
+      "voxxedminsk"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "964962",
+    "url": "https://habr.com/ru/articles/964962/",
+    "timePublished": "2025-11-10T15:34:42+00:00",
+    "postType": "article",
+    "title": "Ну всё! Теперь точно Final",
+    "lead": "Скоро в Java (предположительно, что уже непосредственно в JDK 26) попадут изменения, которые сначала будут выдавать warning-и при попытках изменения final полей, а потом и вовсе запретят изменения final полей в общем случае (это уже, предположительно, в следующих релизах).Я периодически катаюсь на различные европейские конференции, и уже давольно давно на них от ключевых архитекторов Java, таких как Brian Goetz, Stuart Marks (довольно известный на конференциях по прозвищу \"Dr. Deprecator\"), Mark Reinhold и др. превалировал сентимент, который впоследствии переродился в идеалогию под названием \"Integrity By Default\". В рамках Spring Айо мы уже как-то вскольз о ней упоминали, но не формализовывали. Я предлагаю сначала начать с неё, и потом уже раскручивать непосредственно всю эпопею с final в Java.",
+    "statistics": {
+      "commentsCount": 13,
+      "favoritesCount": 9,
+      "readingCount": 3341,
+      "score": 8,
+      "votesCount": 8,
+      "votesCountPlus": 8,
+      "votesCountMinus": 0,
+      "reach": 8183,
+      "readers": 2011
+    },
+    "hubs": [
+      {
+        "id": "23393",
+        "alias": "spring_aio",
+        "title": "Блог компании Spring АйО"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "java",
+      "jvm",
+      "jdk",
+      "openjdk",
+      "serialization",
+      "final",
+      "jep"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "995398",
+    "url": "https://habr.com/ru/articles/995398/",
+    "timePublished": "2026-02-11T14:48:45+00:00",
+    "postType": "article",
+    "title": "HotSpot AOT-кэш: стартуем быстрее, греемся меньше",
+    "lead": "В новом переводе от команды Spring АйО рассмотрим, как можно ускорить Java-приложения без переписываний: в свежих JDK появились Ahead-of-Time оптимизации кэша, которые выносят «дорогие» этапы загрузки/линковки классов (и даже частично профилирование методов) из рантайма в заранее подготовленный артефакт.Рассмотрим как устроен AOT-кэш в JDK 24–26, какие есть workflow (3 шага vs 2 шага/в один прогон), где прячутся подводные камни вроде удвоения требований по памяти при -XX:AOTCacheOutput, и какие практики обучения помогут реально сократить время старта и быстрее выйти на пик производительности.",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 18,
+      "readingCount": 1663,
+      "score": 6,
+      "votesCount": 8,
+      "votesCountPlus": 7,
+      "votesCountMinus": 1,
+      "reach": 7114,
+      "readers": 979
+    },
+    "hubs": [
+      {
+        "id": "23393",
+        "alias": "spring_aio",
+        "title": "Блог компании Spring АйО"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "19441",
+        "alias": "kotlin",
+        "title": "Kotlin"
+      }
+    ],
+    "tags": [
+      "java",
+      "jvm",
+      "spring",
+      "cache",
+      "cache-control",
+      "spring framework",
+      "kotlin",
+      "aot",
+      "spring boot",
+      "spring-boot"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "301182",
+    "url": "https://habr.com/ru/articles/301182/",
+    "timePublished": "2016-05-19T06:58:36+00:00",
+    "postType": "article",
+    "title": "[СПб, Анонс] Встреча с Андреем Паньгиным — Всё, что вы хотели знать о стек-трейсах и хип-дампах",
+    "lead": "В четверг, 26 мая, в 20:00 в питерском офисе компании Luxoft состоится встреча JUG.ru с Андреем Паньгиным aka apangin, ведущим разработчиком Одноклассников. Тема встречи — особенности JDK, связанные с обходом Heap-a и стеками потоков. Stack Trace и Heap Dump — не только инструменты отладки, но ещё и дверцы к самым недрам виртуальной машины Java. Презентация посвящена особенностям JDK, так или иначе связанным с обходом хипа и стеками потоков. В её основе лежат популярные вопросы про JVM со StackOverflow и реальные случаи из практики. Влияют ли стек-трейсы на производительность? Как снимать дампы в продакшне без побочных эффектов? Как устроены утилиты jmap и jstack изнутри? Почему все профайлеры врут, и как с этим бороться? Как сканировать хип средствами JVMTI и Serviceability Agent? Участие бесплатное, регистрация — ТУТ.",
+    "statistics": {
+      "commentsCount": 1,
+      "favoritesCount": 13,
+      "readingCount": 5016,
+      "score": 11,
+      "votesCount": 19,
+      "votesCountPlus": 15,
+      "votesCountMinus": 4,
+      "reach": 5082,
+      "readers": 5073
+    },
+    "hubs": [
+      {
+        "id": "18226",
+        "alias": "jugru",
+        "title": "Блог компании JUG Ru Group"
+      },
+      {
+        "id": "5116",
+        "alias": "odnoklassniki",
+        "title": "Блог компании ОК"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "4",
+        "alias": "hi",
+        "title": "Высоконагруженные системы"
+      }
+    ],
+    "tags": [
+      "java",
+      "jvm",
+      "performance optimization",
+      "java9"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "472440",
+    "url": "https://habr.com/ru/articles/472440/",
+    "timePublished": "2019-10-23T08:04:34+00:00",
+    "postType": "article",
+    "title": "Один день в компании Joker 2019",
+    "lead": "25-26 октября, буквально через два дня, в Санкт-Петербурге на территории Экспофорума пройдёт Joker 2019 — международная Java-конференция для хардкорных Java-разработчиков. В этот раз интерес к ней оказался таким, что сейчас остаются последние билеты — так что, если вам тоже интересно, сейчас самое время запрыгивать в этот поезд. Но если присутствовать на конференции по каким-то причинам не можете, у нас есть частичное утешение: открытая трансляция первого зала в первый день. Про то, зачем вообще смотреть трансляцию, у нас есть отдельный пост. Так что 25 октября в 9:30 утра (по московскому времени) можно будет перейти по ссылке под катом (совам, конечно, придется проснуться чуть раньше обычного). Там же под катом мы обсудим, что такого есть на конференции, чего нет на трансляции.",
+    "statistics": {
+      "commentsCount": 1,
+      "favoritesCount": 10,
+      "readingCount": 3572,
+      "score": 21,
+      "votesCount": 27,
+      "votesCountPlus": 24,
+      "votesCountMinus": 3,
+      "reach": 3605,
+      "readers": 3602
+    },
+    "hubs": [
+      {
+        "id": "18226",
+        "alias": "jugru",
+        "title": "Блог компании JUG Ru Group"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "20754",
+        "alias": "tech_events",
+        "title": "Конференции"
+      },
+      {
+        "id": "359",
+        "alias": "programming",
+        "title": "Программирование"
+      }
+    ],
+    "tags": [
+      "java",
+      "joker",
+      "joker2019"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "939656",
+    "url": "https://habr.com/ru/news/939656/",
+    "timePublished": "2025-08-22T06:26:34+00:00",
+    "postType": "news",
+    "title": "Вышла интегрированная среда разработки Apache NetBeans 27",
+    "lead": "21 августа 2025 года состоялся релиз интегрированной среды разработки Apache NetBeans 27. Проект имеет поддержку языков программирования Java SE, Java EE, PHP, C/C++, JavaScript, Rust и Groovy. Готовые сборки проекта NetBeans 26 сформированы для скачивания под Linux (snapcraft.io, flathub), Windows и macOS. Исходный код решения написан в основном на Java и опубликован на GitHub под лицензией Apache License 2.0. 1 декабря 2023 года состоялся релиз Apache NetBeans 20. Релиз Apache NetBeans 25 произошёл в феврале 2025 года. 20 мая 2025 года случился Apache NetBeans 26.",
+    "statistics": {
+      "commentsCount": 1,
+      "favoritesCount": 1,
+      "readingCount": 2249,
+      "score": 6,
+      "votesCount": 5,
+      "votesCountPlus": 5,
+      "votesCountMinus": 0,
+      "reach": 6423,
+      "readers": 3636
+    },
+    "hubs": [
+      {
+        "id": "144",
+        "alias": "open_source",
+        "title": "Open source"
+      },
+      {
+        "id": "23232",
+        "alias": "txt_ide",
+        "title": "Текстовые редакторы и IDE"
+      },
+      {
+        "id": "17697",
+        "alias": "apache",
+        "title": "Apache"
+      },
+      {
+        "id": "21918",
+        "alias": "soft",
+        "title": "Софт"
+      },
+      {
+        "id": "221",
+        "alias": "sys_admin",
+        "title": "Системное администрирование"
+      }
+    ],
+    "tags": [
+      "apache netbeans",
+      "apache netbeans 27"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "272009",
+    "url": "https://habr.com/ru/articles/272009/",
+    "timePublished": "2015-12-02T22:00:00+00:00",
+    "postType": "article",
+    "title": "О докладе Кирилла Толкачёва и Александра Тарасова про микросервисы на jug.msk.ru",
+    "lead": "26 ноября 2015 года на встрече московской Java User Group, проходившей в офисе компании КРОК, Кирилл Толкачёв и Александр Тарасов выступили с докладом «микроСЕРВИСЫ: огонь, вода и медные трубы». О чём шла речь, какие впечатления от выступления, обо всём этом можно прочитать дальше.",
+    "statistics": {
+      "commentsCount": 2,
+      "favoritesCount": 61,
+      "readingCount": 13258,
+      "score": 7,
+      "votesCount": 9,
+      "votesCountPlus": 8,
+      "votesCountMinus": 1,
+      "reach": 13351,
+      "readers": 13350
+    },
+    "hubs": [
+      {
+        "id": "18226",
+        "alias": "jugru",
+        "title": "Блог компании JUG Ru Group"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "java",
+      "groovy",
+      "jug",
+      "docker",
+      "jug.msk.ru"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "437066",
+    "url": "https://habr.com/ru/articles/437066/",
+    "timePublished": "2019-01-22T13:44:41+00:00",
+    "postType": "article",
+    "title": "Javathon ко Дню студента",
+    "lead": "26-27 января в Москве состоится хакатон для студентов со знаниями Java c призовым фондом 275 000р. Принять участие может джавист любого уровня!",
+    "statistics": {
+      "commentsCount": 3,
+      "favoritesCount": 6,
+      "readingCount": 2929,
+      "score": 12,
+      "votesCount": 14,
+      "votesCountPlus": 13,
+      "votesCountMinus": 1,
+      "reach": 2968,
+      "readers": 2959
+    },
+    "hubs": [
+      {
+        "id": "17155",
+        "alias": "sberbank",
+        "title": "Блог компании Сбер"
+      },
+      {
+        "id": "19275",
+        "alias": "hackathons",
+        "title": "Хакатоны"
+      },
+      {
+        "id": "20754",
+        "alias": "tech_events",
+        "title": "Конференции"
+      },
+      {
+        "id": "20740",
+        "alias": "career",
+        "title": "Карьера в IT-индустрии"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      }
+    ],
+    "tags": [
+      "java",
+      "сбербанк",
+      "хакатон"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "78080",
+    "url": "https://habr.com/ru/articles/78080/",
+    "timePublished": "2009-12-12T17:00:52+00:00",
+    "postType": "article",
+    "title": "Students Calculator теперь open source",
+    "lead": "Students Calculator — это мое первое серьезное приложение, идея доведенная до конечной реализации. Это то, что определило мою текущую профессию. Смешно вспомнить, начинал я писать его в блокноте, в функциональном стиле, не зная о существовании Javadoc и даже java.util, пользуясь только исходниками других j2me приложений. (Конечно, в дальнейшем, с ростом моих навыков программа пережила 2 рефакторинга) Программа оказалась достаточно популярной среди школьников и студентов. Ей даже была посвящена колонка в одном журнале ). Но вершиной славы было письмо из китайского представительства Моторолы с предложением включить Students Calculator в набор стандартных приложений их мобильных телефонов (Чему, к сожалению, не суждено было сбыться) Для чего этот пост: Я уже достаточно долгое время забросил работы над программой. Для меня это достигнутая цель и сложно мотивировать себя и далее выполнять пожелания пользователей. Также я думал, что с приходом touch-телефонов придет и волна хороших тач-калькуляторов. Однако, я по-прежнему получаю письма с вопросами и предложениями, просьбой предоставить исходники… (простят меня их авторы — отвечаю я на них редко). Так вот сегодня я решил побороть лень, найти в глубине бакапов исходники и выложить их во всеобщий доступ. Теперь каждый желающий сможет продлить жизнь этому проекту. Оффсайт: calc.motofan.ru (тут последняя версия 1.5.0 PR от 26.03.2006) Реальная последняя версия:1.9.2 альфа от 2.4.2008 Sourceforge: sourceforge.net/projects/stdcalc/develop — исходники тут",
+    "statistics": {
+      "commentsCount": 50,
+      "favoritesCount": 31,
+      "readingCount": 5295,
+      "score": 108,
+      "votesCount": 128,
+      "votesCountPlus": 118,
+      "votesCountMinus": 10,
+      "reach": 5378,
+      "readers": 5350
+    },
+    "hubs": [
+      {
+        "id": "6801",
+        "alias": "javame_dev",
+        "title": "Java ME"
+      }
+    ],
+    "tags": [
+      "open source",
+      "java",
+      "калькулятор",
+      "j2me",
+      "calculator"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "745156",
+    "url": "https://habr.com/ru/news/745156/",
+    "timePublished": "2023-06-30T13:49:21+00:00",
+    "postType": "news",
+    "title": "«Нетология» и агентство Zecomms Agency выпустили исследование, посвященное объявлениям IT-вакансий",
+    "lead": "Компании «Нетология» и международное коммуникационное агентство Zecomms Agency провели исследование. По данным совместного исследования самый популярный в 2023 году язык программирования — Java. 26% всех открытых вакансий в сфере IT в Европе, США, Латинской Америке, Азии и на Ближнем Востоке в период с марта по май 2023 года приходились на специалистов, владеющих Java.",
+    "statistics": {
+      "commentsCount": 2,
+      "favoritesCount": 1,
+      "readingCount": 1450,
+      "score": 2,
+      "votesCount": 2,
+      "votesCountPlus": 1,
+      "votesCountMinus": 1,
+      "reach": 1554,
+      "readers": 1553
+    },
+    "hubs": [
+      {
+        "id": "20688",
+        "alias": "research",
+        "title": "Исследования и прогнозы в IT"
+      },
+      {
+        "id": "20740",
+        "alias": "career",
+        "title": "Карьера в IT-индустрии"
+      },
+      {
+        "id": "21890",
+        "alias": "statistics",
+        "title": "Статистика в IT"
+      },
+      {
+        "id": "22026",
+        "alias": "itcompanies",
+        "title": "IT-компании"
+      }
+    ],
+    "tags": [
+      "статистика",
+      "программирование",
+      "it-специалисты",
+      "прием на работу",
+      "нетология",
+      "it-вакансии",
+      "zecomms agency"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "789464",
+    "url": "https://habr.com/ru/articles/789464/",
+    "timePublished": "2024-01-29T09:12:43+00:00",
+    "postType": "article",
+    "title": "Весенние конференции JRG: онлайн и офлайн, новые и любимые",
+    "lead": "Этой весной мы проведём ряд конференций, и среди них целых три новых (про Go, ML и безопасность приложений). Одни мероприятия будут полностью онлайновыми, а другие пройдут в Москве (но и к таким возможно подключиться удалённо).Все билеты уже в продаже, а в случае с частью конференций ещё не поздно подать заявку на доклад. Лайфхак: тебе не понадобится покупать билет на конференцию, если сам на ней выступаешь! Хотя, конечно, для спикеров это обычно не главное: важнее, что пока объясняешь другим тему, сам её понимаешь куда лучше прежнего.Этот пост — сразу обо всём конференционном сезоне:• Flow (системный и бизнес-анализ), 12 марта, онлайн• SafeCode (безопасность приложений), 13-14 марта, онлайн• GoFunc (разработка на Go), 14-15 марта, онлайн• TechTrain (профессиональный рост в IT), 6 апреля• HolyJS (JS-разработка), 15 апреля в онлайне и 26-27 апреля в Москве• Heisenbug (тестирование), 16 апреля в онлайне и 22-23 апреля в Москве• JPoint (Java-разработка), 17 апреля в онлайне и 24-25 апреля в Москве• Mobius (мобильная разработка), 14 мая в онлайне и 20-21 мая в Москве• C++ Russia (понятно что), 15 мая в онлайне и 22-23 мая в Москве• I'ML (работа с ML), в июне, онлайн",
+    "statistics": {
+      "commentsCount": 0,
+      "favoritesCount": 7,
+      "readingCount": 1006,
+      "score": 3,
+      "votesCount": 3,
+      "votesCountPlus": 3,
+      "votesCountMinus": 0,
+      "reach": 1147,
+      "readers": 1133
+    },
+    "hubs": [
+      {
+        "id": "18226",
+        "alias": "jugru",
+        "title": "Блог компании JUG Ru Group"
+      },
+      {
+        "id": "210",
+        "alias": "it_testing",
+        "title": "Тестирование IT-систем"
+      },
+      {
+        "id": "375",
+        "alias": "java",
+        "title": "Java"
+      },
+      {
+        "id": "19439",
+        "alias": "machine_learning",
+        "title": "Машинное обучение"
+      },
+      {
+        "id": "20754",
+        "alias": "tech_events",
+        "title": "Конференции"
+      }
+    ],
+    "tags": [
+      "flow",
+      "mobius",
+      "jpoint",
+      "c++ russia",
+      "holyjs",
+      "heisenbug",
+      "safecode",
+      "gofunc",
+      "i&#039;ml"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  },
+  {
+    "id": "1027184",
+    "url": "https://habr.com/ru/articles/1027184/",
+    "timePublished": "2026-04-23T16:05:39+00:00",
+    "postType": "article",
+    "title": "Способы достижения технологической независимости в области ЭВМ",
+    "lead": "Типичный настольный компьютер конца 90-х имел 8-16 мегабайт ОЗУ, работал на частоте 100-300 МГц и потреблял порядка 150 Вт, из которых половина приходилась на монитор. Типичная операционная система тех лет (Windows 98) официально требовала для своей работы 16 мегабайт ОЗУ. Это считалось несколько расточительным по сравнению с Windows 95, которая требовала 4 мегабайта ОЗУ вместе с браузером (и даже глянцевые журналы верстались на компьютерах с 4 мегабайтами ОЗУ, в среде PageMaker 5.0). В те же времена ещё оставались многочисленные пользователи ретро-машин, которые решали все свои задачи, имея от 128 килобайт до 1 мегабайта ОЗУ (математические и бухгалтерские расчёты, работа с текстовыми и графическими документами, переписка в Fido, чаты в BBS, компиляция ПО, трассировка печатных плат, написание курсовых и дипломных работ и разнообразные компьютерные игры). Современный настольный компьютер имеет 8 и более гигабайт ОЗУ, работает на частоте 3 и более ГГц (4 и более ядер) и потребляет 300 Вт. Современная операционная система Ubuntu 26 официально требует не менее 6 гигабайт ОЗУ и 2 ядер по 2 ГГц [1]. При этом пользовательский функционал практически не расширился. Также известно, что на 2-3 порядка увеличились размеры отдельных программ (например, Microsoft Word, Adobe Photoshop, Adobe Reader, ACDSee, Opera, Nero, Skype и их аналоги) и окружений (Java, .NET, DirectX, OpenGL, причём речь не про видеопамять).",
+    "statistics": {
+      "commentsCount": 57,
+      "favoritesCount": 19,
+      "readingCount": 3031,
+      "score": 5,
+      "votesCount": 15,
+      "votesCountPlus": 9,
+      "votesCountMinus": 6,
+      "reach": 10954,
+      "readers": 1816
+    },
+    "hubs": [
+      {
+        "id": "19733",
+        "alias": "fpga",
+        "title": "FPGA"
+      },
+      {
+        "id": "643",
+        "alias": "3d_graphics",
+        "title": "3D-графика"
+      },
+      {
+        "id": "21484",
+        "alias": "electronics",
+        "title": "Производство и разработка электроники"
+      },
+      {
+        "id": "21960",
+        "alias": "nano",
+        "title": "Нанотехнологии"
+      },
+      {
+        "id": "21920",
+        "alias": "demoscene",
+        "title": "Демосцена"
+      }
+    ],
+    "tags": [
+      "fpga",
+      "cpu",
+      "независимость",
+      "bloatware",
+      "производство электроники"
+    ],
+    "matchedTokens": [
+      "Java",
+      "26"
+    ]
+  }
+]
